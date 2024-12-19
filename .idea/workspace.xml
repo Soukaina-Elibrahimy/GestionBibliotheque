@@ -6,13 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e86f47cc-19e5-4fc5-92c2-d98e34cdce8b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/dao/BookDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/library/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/library/BookServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/library/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/library/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/library/BorrowServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/library/BorrowServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/library/StudentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/library/StudentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/library/dao/BookDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/library/dao/BookDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/library/BookServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/library/BookServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +61,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BorrowServiceTest">
     <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GestionBibliotheque" />
       <extension name="coverage">
@@ -95,10 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BorrowServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GestionBibliotheque" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.library" />
+      <option name="MAIN_CLASS_NAME" value="com.library.BorrowServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookServiceTest.testAddBook" />
+        <item itemvalue="JUnit.BorrowServiceTest" />
         <item itemvalue="JUnit.BookServiceTest" />
+        <item itemvalue="JUnit.BookServiceTest.testAddBook" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734624394632</updated>
-      <workItem from="1734624395912" duration="5084000" />
+      <workItem from="1734624395912" duration="8666000" />
     </task>
     <servers />
   </component>
