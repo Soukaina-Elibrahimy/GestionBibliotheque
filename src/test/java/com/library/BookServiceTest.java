@@ -14,14 +14,15 @@ class BookServiceTest {
     void setUp() {
         bookService = new BookService();
         bookService.truncate();
-
+        Book book = new Book(10, "Java Programming", "John Doe","Publisher1", "ISBN12",2002);
+        bookService.addBook(book);
 
     }
 
     @Test
     void testAddBook() {
-        Book book = new Book(10, "Java Programming", "John Doe","Publisher1", "ISBN12",2002);
-        bookService.addBook(book);
+//        Book book = new Book(10, "Java Programming", "John Doe","Publisher1", "ISBN12",2002);
+//        bookService.addBook(book);
         assertEquals(1, bookService.displayBooks().size());
         assertEquals("Java Programming", bookService.findBookById(10).getTitle());
     }

@@ -8,7 +8,8 @@
   <name>mon-projet</name>
   <url>http://maven.apache.org</url>
 
-  <build>
+
+    <build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -62,6 +63,9 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <maven.compiler.release>17</maven.compiler.release>
+      <sonar.projectKey>gestion-bibliotheque</sonar.projectKey>
+      <sonar.host.url>http://localhost:9000</sonar.host.url>
+      <sonar.login>sqa_7af17cf7ae8bbfbca4565f427f8c4a78015c8bae</sonar.login>
   </properties>
 
   <dependencies>

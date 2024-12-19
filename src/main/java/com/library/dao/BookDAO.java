@@ -87,7 +87,6 @@ public class BookDAO {
 
     public Book getBookById(int id) {
         String request = "SELECT * FROM books WHERE id = ?";
-
         try (Connection connection = DbConnection.getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement(request)) {
 
